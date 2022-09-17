@@ -1,0 +1,159 @@
+/* Mobile */
+@media (max-width: 767px) {
+    /* Typography */
+    h1 {
+        font-family: Playfair Display;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .text p {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #yields h1 {
+        font-family: Montserrat;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #yields h2 {
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #times h1 {
+        font-family: Montserrat;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #times h2 {
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #ingredients h1 {
+        font-family: Playfair Display;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #ingredients h2 {
+        font-family: Playfair Display;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #ingredients p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #ingredients b {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #instructions h1 {
+        font-family: Playfair Display;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .instructions h1 {
+        font-family: Playfair Display;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .instructions p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .instructions b {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #instructions p {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .author p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .author b {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
