@@ -5,141 +5,222 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 
-h1,
-#ingredients h1,
-#ingredients h2,
-#instructions h1,
-.instruction h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 64px;
-    letter-spacing: 0em;
-    text-align: left;
-}
+/* Desktop */
+@media (min-width: 768px) {
+    /* Typography */
 
-#ingredients h1 {
-    font-size: 24px;
-    line-height: 32px;
-}
+    h1,
+    #ingredients h1,
+    #ingredients h2,
+    .instruction h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
 
-#ingredients h2 {
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 24px;
-}
+    #ingredients h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
 
-a {
-    color: black;
-}
+    #ingredients h2 {
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 24px;
+    }
 
-.text p,
-#yields h1,
-#yields h2,
-#times h1,
-#times h2,
-#ingredients p,
-.instructions p,
-.instructions b,
-#instructions p {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0em;
-    text-align: left;
-}
+    .instruction h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
 
-.text p,
-#instructions p {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 17px;
-}
+    a {
+        color: black;
+    }
 
-#yields h1,
-#times h1 {
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 12px;
-}
+    .text p,
+    #yields h1,
+    #yields h2,
+    #times h1,
+    #times h2,
+    #ingredients p,
+    .instructions p,
+    .instructions b,
+    #instructions p {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        text-align: left;
+    }
 
-#yields h2,
-#times h2 {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17px;
-}
+    .text p,
+    #instructions p {
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 17px;
+    }
 
-#ingredients p,
-#ingredients b {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-}
+    #yields h1,
+    #times h1 {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;
+    }
 
-#ingredients b {
-    font-weight: 700;
-}
+    #yields h2,
+    #times h2 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+    }
 
-.instruction p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-}
+    #ingredients p,
+    #ingredients b {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+    }
 
-.instruction b {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-}
+    #ingredients b {
+        font-weight: 700;
+    }
 
-.src {
-    font-weight: 400;
-    line-height: 18px;
-}
+    .instruction p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 
-.author p,
-.author b {
-    font-family: Montserrat;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: center;
-}
+    .instruction b {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
 
-.author p {
-    font-weight: 500;
-}
+    .src {
+        font-weight: 400;
+        line-height: 18px;
+    }
 
-.author b {
-    font-weight: 700;
-}
+    .author p,
+    .author b {
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
 
-#yields i,
-#yields h2 {
-    color: var(--orange);
-}
+    .author p {
+        font-weight: 500;
+    }
 
-.cube {
-    width: max-content;
-    height: max-content;
-    padding: 0px 20px 0px 20px;
-    border-radius: 6px;
-    color: white;
-    background: var(--orange);
-}
+    .author b {
+        font-weight: 700;
+    }
 
-.src a {
-    text-decoration: none;
-}
+    #yields i,
+    #yields h2 {
+        color: var(--orange);
+    }
 
-.author {
-    text-align: center;
-}
+    .cube {
+        width: max-content;
+        height: max-content;
+        padding: 0px 10px 0px 10px;
+        border-radius: 6px;
+        color: white;
+        background: var(--orange);
+    }
 
-/* Size */
-body #img {
-    width: 100%;
+    .src a {
+        text-decoration: none;
+    }
+
+    .author {
+        text-align: center;
+    }
+
+    /* Size */
+    body #img {
+        width: 100%;
+    }
+
+    /* Position */
+
+    .content {
+        display: flex;
+    }
+
+    #text {
+        width: 80%;
+    }
+
+    #resume {
+        width: 20%;
+        height: max-content;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+
+    #yields div,
+    .time div,
+    .text p,
+    #ingredients p,
+    .instruction p {
+        margin-left: 0.5rem;
+    }
+
+    .text,
+    .ingredient {
+        display: flex;
+        align-items: baseline;
+    }
+
+    #yields {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+
+    #yields h1,
+    #yields h2,
+    .time h1,
+    .time h2,
+    .ingredient p {
+        margin: 0%;
+    }
+
+    #times {
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .time,
+    .instruction {
+        display: flex;
+        margin: 1rem 0rem;
+    }
+
+    #ingredients h1,
+    #instructions h1,
+    .author {
+        margin-bottom: 0%;
+    }
+
+    .cube {
+        position: relative;
+        bottom: 18px;
+    }
 }
 
 /* Mobile */
