@@ -172,6 +172,10 @@ body #img {
         text-decoration: none;
     }
 
+    .author {
+        text-align: center;
+    }
+
     .author p {
         font-family: Montserrat;
         font-size: 14px;
@@ -188,5 +192,77 @@ body #img {
         line-height: 17px;
         letter-spacing: 0em;
         text-align: center;
+    }
+
+    
+    /* Position */
+
+    #yields div,
+    .time div,
+    .text p,
+    #ingredients p,
+    .instruction p {
+        margin-left: 0.5rem;
+    }
+
+    .text {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #yields {
+        display: flex;
+        align-items: center;
+    }
+
+    #yields h1,
+    #yields h2 {
+        margin: 0%;
+    }
+
+    #times {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .time {
+        display: flex;
+    }
+
+    .time h1,
+    .time h2 {
+        margin: 0%;
+    }
+
+    #ingredients h1,
+    #instructions h1 {
+        margin-bottom: 0%;
+    }
+
+    .ingredient {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .ingredient p {
+        margin: 0%;
+    }
+
+    .instruction {
+        display: flex;
+    }
+
+    .cube {
+        position: relative;
+        bottom: 18px;
+    }
+
+    .author {
+        margin-bottom: 0%;
     }
 }
