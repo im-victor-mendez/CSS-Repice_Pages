@@ -1,8 +1,9 @@
-/* Typography */
-
 :root {
     --orange: #F2994A;
 }
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 
 /* Size */
 body #img {
@@ -12,123 +13,119 @@ body #img {
 /* Mobile */
 @media (max-width: 767px) {
     /* Typography */
-    h1 {
-        font-family: Playfair Display;
+    h1,
+    #ingredients h1,
+    #ingredients h2,
+    #instructions h1,
+    .instruction h1 {
+        font-family: 'Playfair Display', serif;
         font-size: 24px;
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0em;
         text-align: left;
+    }
+
+    #ingredients h1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #ingredients h2 {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 21px;
     }
 
     a {
         color: black;
     }
 
-    .text p {
-        font-family: Montserrat;
+    .text p,
+    #yields h1,
+    #yields h2,
+    #times h1,
+    #times h2,
+    #ingredients p,
+    .instructions p,
+    .instructions b,
+    #instructions p {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .text p,
+    #instructions p {
         font-size: 12px;
         font-style: italic;
         font-weight: 500;
         line-height: 15px;
+    }
+
+    #yields h1,
+    #times h1 {
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 10px;
+    }
+
+    #yields h2,
+    #times h2 {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+    }
+
+    #ingredients p,
+    #ingredients b {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    #ingredients b {
+        font-weight: 700;
+    }
+
+    .instructions p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .instructions b {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    #instructions p {
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .author p,
+    .author b {
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 17px;
         letter-spacing: 0em;
-        text-align: left;
+        text-align: center;
+    }
+
+    .author p {
+        font-weight: 500;
+    }
+
+    .author b {
+        font-weight: 700;
     }
 
     #yields i,
     #yields h2 {
         color: var(--orange);
-    }
-
-    #yields h1 {
-        font-family: Montserrat;
-        font-size: 8px;
-        font-weight: 700;
-        line-height: 10px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #yields h2 {
-        font-family: Montserrat;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 12px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #times h1 {
-        font-family: Montserrat;
-        font-size: 8px;
-        font-weight: 700;
-        line-height: 10px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #times h2 {
-        font-family: Montserrat;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 12px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #ingredients h1 {
-        font-family: Playfair Display;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #ingredients h2 {
-        font-family: Playfair Display;
-        font-size: 16px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: 21px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #ingredients p {
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #ingredients b {
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #instructions h1 {
-        font-family: Playfair Display;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 32px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    .instructions h1 {
-        font-family: Playfair Display;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 32px;
-        letter-spacing: 0em;
-        text-align: left;
     }
 
     .cube {
@@ -140,34 +137,6 @@ body #img {
         background: var(--orange);
     }
 
-    .instructions p {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    .instructions b {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    #instructions p {
-        font-family: Montserrat;
-        font-size: 12px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
     .src a {
         text-decoration: none;
     }
@@ -175,25 +144,6 @@ body #img {
     .author {
         text-align: center;
     }
-
-    .author p {
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: center;
-    }
-
-    .author b {
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: center;
-    }
-
     
     /* Position */
 
@@ -205,7 +155,8 @@ body #img {
         margin-left: 0.5rem;
     }
 
-    .text {
+    .text,
+    .ingredient {
         display: flex;
         align-items: baseline;
     }
@@ -221,7 +172,10 @@ body #img {
     }
 
     #yields h1,
-    #yields h2 {
+    #yields h2,
+    .time h1,
+    .time h2,
+    .ingredient p {
         margin: 0%;
     }
 
@@ -230,39 +184,19 @@ body #img {
         justify-content: space-between;
     }
 
-    .time {
+    .time,
+    .instruction {
         display: flex;
-    }
-
-    .time h1,
-    .time h2 {
-        margin: 0%;
     }
 
     #ingredients h1,
-    #instructions h1 {
+    #instructions h1,
+    .author {
         margin-bottom: 0%;
-    }
-
-    .ingredient {
-        display: flex;
-        align-items: baseline;
-    }
-
-    .ingredient p {
-        margin: 0%;
-    }
-
-    .instruction {
-        display: flex;
     }
 
     .cube {
         position: relative;
         bottom: 18px;
-    }
-
-    .author {
-        margin-bottom: 0%;
     }
 }
